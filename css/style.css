@@ -1,33 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{margin: 0;}
 .header{
     background-color: #c772a6;
-    padding: 50px;
+    padding: 200px;
     text-align: center;
   }
 .navbar{
     background-color:#b9c6ce;
     color: white;
-    height: 70px;
+    height: 125px;
     width: 100%;
     position:fixed;
     top:0;
     z-index: 1;
-    opacity: 0.5;
+    opacity: 0.75;
 
+}
+.nav .list{
+    float: right;
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 20px;
+    
+}
+.nav .list:hover{
+    color: rgb(71, 173, 71);
 }
 .logo{
-    height: 70px;
-    width: 70px;
-    margin-left: 12px;
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
     margin-top: 5px;
+    opacity: 1;
+    float: right;
+
 }
 
-.main{}
+.main{
+    float: left;
+    /* width: 30%; */
+    margin: 30px;
+    border: 2px solid #000;
+    background-color: rgb(177, 84, 138);
+    padding: 10px;  
+}
+/* Image gallery */
+.akha-gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 500px;
+  }
+  .akha-gallery:hover{
+    border: 1px solid rgb(63, 156, 79);
+  }
+  .akha-desc{
+      padding: 15px;
+      text-align: center;
+  }
+.hmong-video{
+    padding: auto;
+    float: right;
+ 
+}
 
-
-.section{}
+.footer-twitter{
+    position: relative;
+}
 
 .section image{
+    position: absolute;
    
 
 }
@@ -37,13 +82,30 @@ body{margin: 0;}
     margin-top:20px;
     
 }
-.footer{
-    background-color: #dbafc8;
-    text-align: center;
-    padding: 20px;
-    height: 50px;
-    /* position: absolute;
-    bottom: 0; */
+.footer-contact1{
+    color: rgb(20, 19, 19);
+    font-size: 18px;
+    list-style-type: none;
+    line-height: 28px;
+    position: absolute;
+    left: 25%;
 }
+.footer-contact2{
+    color: rgb(20, 19, 19);
+    font-size: 18px;
+    list-style-type: none;
+    line-height: 28px;
+    position: absolute;
+    left: 50%;
+}
+.footer-cr{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer{
+    padding: 5%;
+    position: relative;
+    background-color: #c772a6;
 
-
+}
