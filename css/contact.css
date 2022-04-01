@@ -1,28 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;0,500;1,700&display=swap');
+
+
 /* nav bar */
-.header{
-    background-color: #c772a6;
-    padding: 75px;
-    text-align: center;
-  }
 .navbar{
-    background-color:#b9c6ce;
-    color: white;
-    height: 175px;
-    width: 100%;
-    position:fixed;
-    top:0;
-    z-index: 1;
-    opacity: 0.5;
-    list-style-type: none;
+  background-color:#885281;
+  color: rgb(161, 103, 149);
+  height: 125px;
+  width: 100%;
+  position:fixed;
+  top:0;
+  z-index: 1;
+  opacity: 0.75;
+  font-family: 'Barlow Condensed', sans-serif;
 
 }
+.nav .list{
+  float: right;
+  list-style-type: none;
+  display: inline-block;
+  padding: 50px 20px;
+  
+}
+.nav .list:hover{
+  color: rgb(71, 173, 71);
+}
 .logo{
-    height: 75px;
-    width: 75px;
-    margin-left: 12px;
-    margin-top: 5px;
+  height: 100px;
+  width: 100px;
+  margin-left: 15px;
+  margin-top: 5px;
+  opacity: 1;
+  float: right;
+
 }
 /* end of nav bar */
+.form-title{
+  font-family: 'Barlow Condensed', sans-serif;
+  padding-top: 10%;
+
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -32,10 +49,11 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-family: 'Barlow Condensed', sans-serif;
   }
   
   input[type=submit] {
-    background-color: #4c04aa;
+    background-color: #0fb333;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -44,7 +62,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #bad422;
   }
   
   .container {
@@ -67,6 +85,7 @@ input[type=text], select, textarea {
     line-height: 28px;
     position: absolute;
     left: 25%;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 .footer-contact2{
     color: rgb(20, 19, 19);
@@ -75,11 +94,20 @@ input[type=text], select, textarea {
     line-height: 28px;
     position: absolute;
     left: 50%;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 .footer-cr{
-    position: absolute;
+    /* position: absolute;
     left: 50%;
     transform: translate(-50%,-50%);
+    font-family: 'Barlow Condensed', sans-serif; */
+    color: rgb(20, 19, 19);
+    font-size: 18px;
+    list-style-type: none;
+    line-height: 28px;
+    position: absolute;
+    right: 20%;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 .footer{
     padding: 5%;

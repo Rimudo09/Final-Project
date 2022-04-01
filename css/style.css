@@ -9,7 +9,12 @@ body{margin: 0;}
     padding: 200px;
     text-align: center;
     font-family: 'Barlow Condensed', sans-serif;
+    font-size: 50pt;
   }
+.header-img{
+    width: 100%;
+    margin-top: -80px;
+}
 .navbar{
     background-color:#b9c6ce;
     color: white;
@@ -80,6 +85,10 @@ body{margin: 0;}
     position: absolute;
    
 
+}
+/* image was hidden */
+.section-hidden{
+    visibility: hidden;
 }
 /* .image{
     background-image: url(../img/hmongakha.jpeg);
